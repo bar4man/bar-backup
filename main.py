@@ -158,7 +158,7 @@ class Bot(commands.Bot):
     
     def __init__(self):
         super().__init__(
-            command_prefix="~~",
+            command_prefix="~",
             intents=intents,
             help_command=None,
             case_insensitive=True
@@ -713,3 +713,4 @@ if __name__ == "__main__":
         logging.critical("❌ Invalid Discord token")
     except Exception as e:
         logging.critical(f"❌ Failed to start bot: {e}")
+
