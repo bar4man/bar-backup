@@ -1,0 +1,9 @@
+discord.py
+Flask
+python-dotenv
+aiofiles
+psutil
+waitress
+motor
+pymongo
+
