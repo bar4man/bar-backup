@@ -1,7 +1,0 @@
-discord.py
-Flask
-python-dotenv
-aiofiles
-motor
-pymongo
-waitress
